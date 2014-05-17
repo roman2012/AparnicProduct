@@ -1,6 +1,6 @@
 <?php
 
-class AnalyticsActivation {
+class AparnicProductActivation {
 
 	public function beforeActivation($controller) {
 		return true;
