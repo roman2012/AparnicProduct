@@ -7,8 +7,7 @@ class AparnicProductActivation {
 	}
 
 	public function onActivation($controller) {
-                // create a content type naming product
-                // setting reqiure product routes
+                // create a content type naming products
 		return true;
 	}
 
@@ -17,7 +16,6 @@ class AparnicProductActivation {
 	}
 
 	public function onDeactivation($controller) {
-                //removing product routes
 		return true;
 	}
 
